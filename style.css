@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,614;1,614&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;              /* REQUIRED */
+}
+
+.submitBtn {
+    background-color: #91d414;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;           /* number only */
+    font-family: 'Noto Sans', sans-serif;
+    border: none;
+    cursor: pointer;
+    
+}
